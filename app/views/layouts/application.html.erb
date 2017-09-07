@@ -13,11 +13,15 @@
       <%= link_to "Share a story", new_post_path %>
     </header>
     <body>
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+
+      <%= yield %>
 
     </body>
     <footer>
 
     </footer>
-    <%= yield %>
+
   </body>
 </html>

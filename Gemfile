@@ -57,3 +57,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
+
+# Use devise to add users to web app
+gem 'devise'
