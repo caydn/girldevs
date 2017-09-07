@@ -11,6 +11,16 @@
   <body>
     <header>
       <%= link_to "Share a story", new_post_path %>
+      <% if user_signed_in? %>
+        <%= current_user.email%>
+      <% end %>
+      <!-- <br>
+      <%= link_to "Sign up", new_user_registration_path %>
+      <br>
+      <%= link_to "Sign out", destroy_user_session_path %>
+      <br>
+      <%= link_to "Sign in", new_user_session_path %> -->
+
     </header>
     <body>
       <p class="notice"><%= notice %></p>
