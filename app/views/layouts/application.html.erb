@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Girldevs</title>
+    <title>Girl Devs</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,15 @@
   </head>
 
   <body>
+    <header>
+      <%= link_to "Share a story", new_post_path %>
+    </header>
+    <body>
+
+    </body>
+    <footer>
+
+    </footer>
     <%= yield %>
   </body>
 </html>
